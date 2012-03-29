@@ -26,6 +26,26 @@
         <url-pattern>/signup</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Search</servlet-name>
+        <servlet-class>com.myapp.servlet.searchServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Search</servlet-name>
+        <url-pattern>/search</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SongPopUp</servlet-name>
+        <servlet-class>com.myapp.servlet.songDetailsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SongPopUp</servlet-name>
+        <url-pattern>/songDetails</url-pattern>
+    </servlet-mapping>
+
 
 
     <!-- Default page to serve -->
