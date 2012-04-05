@@ -40,8 +40,7 @@ public class songservlet extends HttpServlet {
         resp.getOutputStream().print(jsonSong);
         resp.getOutputStream().flush();
         resp.setHeader("Access-Control-Allow-Origin", "*");
-        System.out.println("In the server");
-        System.out.println(jsonSong);
+
 
 
     }
